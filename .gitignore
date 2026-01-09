@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+dist/
+build/
+.cache/
+
+# Environment Variables (Bahut zaroori - security ke liye)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# Editor & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Optional: Server specific (agar aap backend use kar rahe hain)
+server/node_modules/
+server/.env
